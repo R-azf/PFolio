@@ -1,0 +1,163 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    font-family: Arial, sans-serif;
+    background: rgb(247, 247, 247);
+}
+
+/* Main Container */
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+/* Header Style */
+.header {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+/* Styles spécifiques au header */
+#site-header {
+    display: flex;
+    align-items: center;
+    background: rgb(222, 212, 203);
+    padding: 10px 20px;
+    justify-content: space-between;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#site-header .logo {
+    width: 40px;
+    height: 40px;
+    background: #555;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#site-header nav {
+    display: flex;
+    gap: 10px;
+}
+
+#site-header nav a {
+    text-decoration: none;
+    color: rgb(106, 105, 105);
+    background: rgb(206, 205, 198);
+    padding: 10px 15px;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+#site-header nav a:hover {
+    background: #666;
+}
+
+/* Description Sections */
+.description {
+    font-size: 1.2rem;
+    max-width: 800px;
+    background-color: rgb(220, 223, 227);
+    color: rgb(50, 50, 50);
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Images Section */
+.images {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.images img {
+    width: 300px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.images img:hover {
+    transform: scale(1.05);
+}
+
+/* Réinitialisation des styles hérités */
+#site-footer * {
+    all: unset;
+    box-sizing: border-box;
+}
+
+/* Styles spécifiques au footer */
+#site-footer {
+    background: rgb(222,212,203) !important;
+    color: #d3d3d3 !important;
+    padding: 20px 0 !important;
+    text-align: center !important;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+}
+
+#site-footer .footer-container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+#site-footer .footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+#site-footer .footer-links li {
+    display: inline;
+}
+
+#site-footer .footer-links a {
+    color:  rgb(50, 50, 50) !important;
+    text-decoration: none !important;
+    transition: color 0.3s !important;
+}
+
+#site-footer .footer-links a:hover {
+    color: #ffffff !important;
+}
+
+#site-footer .mentions {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+#site-footer .mentions a {
+    color: #999999 !important;
+    text-decoration: none !important;
+}
+
+#site-footer .mentions a:hover {
+    color: #ffffff !important;
+}

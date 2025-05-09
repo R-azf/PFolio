@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Présentation - Appli-Frais</title>
+    <link rel="stylesheet" href="./gsb.css">
+</head>
+<body>
+    <!-- Header -->
+   <header id="site-header">
+        <div class="logo"></div>
+        <nav>
+            <a href="../index.html">Accueil</a>
+            <a href="../hist/hist.html">About</a>
+            <a href="../projets/projets.html">Projets</a>
+            <a href="../contacts/contacts.html">Contact</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <h1 class="header">Présentation de Appli-Frais</h1>
+        
+        <div class="description">
+            <h2>Résumé</h2>
+            <p>
+                Le projet <strong>APPLI-FRAIS</strong> vise à mettre en place une application Web sécurisée pour le suivi des comptes rendus et des frais de remboursement. Accessible en ligne, cette solution répond aux besoins des visiteurs, délégués et responsables de secteur. Ce cahier des charges détaille les étapes essentielles, de l'architecture réseau à la cybersécurité, dans le but d'optimiser la gestion interne et renforcer la robustesse de l'infrastructure technologique de l'entreprise.
+            </p>
+        </div>
+
+        <div class="description">
+            <h2>Présentation</h2>
+            <p>
+                <strong>Objectif</strong> : Nous procédons à la mise à jour de Centreon dans le but de profiter des dernières fonctionnalités, d'améliorer la sécurité et de corriger les erreurs. Actuellement, nous sommes en train de migrer de la version 2.8.32 à la version la plus récente, la 23.10.
+            </p>
+            <p>
+                La mise à jour de Centreon implique une transition essentielle, débutant par le passage du système d'exploitation CentOS 6 à Debian 12. De plus, il est crucial de mettre à niveau les composants actuels de l'application, passant ainsi de PHP 5.3, Apache 2.2 et MariaDB 5.5 à leurs futures versions : PHP 8.1, Apache 2.4 et MariaDB 10.5.
+            </p>
+            <p>
+                Le processus d'installation de la nouvelle version de Centreon se divise en plusieurs étapes méthodiques. Tout d'abord, une sauvegarde exhaustive de la base de données est effectuée, suivie d'une sauvegarde préalable de la machine pour des raisons de sécurité. Ensuite, une nouvelle machine sous Debian 12 est déployée.
+            </p>
+            <p>
+                Une fois cette infrastructure mise en place, les nouvelles versions de Centreon, Apache, PHP et MariaDB sont déployées. Les données sont ensuite restaurées dans la base de données, garantissant ainsi la continuité opérationnelle des informations cruciales.
+            </p>
+            <p>
+                Enfin, l'installation des différents plugins, notamment NagVis, est effectuée. Les principaux défis rencontrés durant cette mission ont été l'installation et la configuration de NagVis, ainsi que l'assurance de la mise en conformité de la base de données avec les nouvelles versions et exigences de l'application.
+            </p>
+        </div>
+        
+        <div class="images">
+            <img src="./img/image.png" alt="Appli-Frais - Réseau Informatique">
+            <img src="./img/image2.png" alt="Appli-Frais - Mise à jour de Centreon">
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer id="site-footer">
+        <div class="footer-container">
+            <nav>
+                <ul class="footer-links">
+                    <li><a href="../index.html">Accueil</a></li>
+                    <li><a href="../hist/hist.html">About</a></li>
+                    <li><a href="../projets/projets.html">Projets</a></li>
+                    <li><a href="../contacts/contacts.html">Contact</a></li>                   
+                </ul>
+            </nav>
+            <p class="mentions"><a href="./index.html">Mentions légales</a> © 2024 - Mon Portfolio | Dernière mise à jour : 24/03/2025</p>
+            
+        </div>
+    </footer>
+</body>
+</html>

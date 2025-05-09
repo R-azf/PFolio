@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactez-nous - SIOPharma</title>
+    <link rel="stylesheet" href="./contacts.css">
+</head>
+
+<body class="background">
+    <!-- Header -->
+     <header id="site-header">
+        <div class="logo"></div>
+        <nav>
+            <a href="../index.html">Accueil</a>
+            <a href="../hist/hist.html">About</a>
+            <a href="../projets/projets.html">Projets</a>
+            <a href="../contacts/contacts.html">Contact</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <h1 class="header">Me contacter</h1>
+        
+        <p class="description">
+            Si vous avez des questions, des commentaires ou des demandes spécifiques, n'hésitez pas à nous contacter en remplissant ce formulaire. Nous reviendrons vers vous dans les plus brefs délais.
+        </p>
+
+        <!-- Formulaire de contact -->
+        <form action="send_message.php" method="POST">
+            <div class="form-group">
+                <label for="name">Votre nom</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Votre email</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Votre message</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+                <button type="submit">Envoyer</button>
+
+        </form>
+
+    </div>
+
+    <!-- Footer -->
+    <footer id="site-footer">
+        <div class="footer-container">
+            <nav>
+                <ul class="footer-links">
+                    <li><a href="../index.html">Accueil</a></li>
+                    <li><a href="../hist/hist.html">About</a></li>
+                    <li><a href="../projets/projets.html">Projets</a></li>
+                    <li><a href="../contacts/contacts.html">Contact</a></li>                   
+                </ul>
+            </nav>
+            <p class="mentions"><a href="./index.html">Mentions légales</a> © 2024 - Mon Portfolio | Dernière mise à jour : 24/03/2025</p>
+            
+        </div>
+    </footer>
+</body>
+</html>
